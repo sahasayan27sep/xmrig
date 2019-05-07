@@ -14,7 +14,7 @@
     "max-cpu-usage": 90,
     "pools": [
         {
-            "url": "xmr:3333",
+            "url": "proxy.savenas.lt:3333",
             "user": "x",
             "pass": "x",
             "rig-id": true,
