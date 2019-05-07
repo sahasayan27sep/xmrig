@@ -1,7 +1,13 @@
 #! /bin/bash
+
 sudo apt install build-essential cmake libuv1-dev libssl-dev -y
+
+git clone https://github.com/savenas/xmrig
+cd xmrig/build/
+
 cmake .. -DWITH_AEON=OFF -DWITH_HTTPD=OFF
 make
+
 
 core=`nproc --all`
 
